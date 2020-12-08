@@ -4,7 +4,7 @@ import './portfolio.css';
 
 const Portfolio = () => {
     return (
-        <div class="container" id="main">
+        <div class="container" id="portfolio">
             <div class="card">
                 <div class="row row-cols-1 row-cols-md-3">
                     <div class="col mb-4">
@@ -12,6 +12,7 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
+            <hr />
         </div>)
 }
 

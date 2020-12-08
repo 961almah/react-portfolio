@@ -4,7 +4,7 @@ import './contact.css'
 
 const Contacts = () => {
     return (
-        <div className="container" id="main">
+        <div className="container" id="contact">
             <div className="card">
                 <div className="card-body">
                     <div className="col-md-12">
@@ -21,6 +21,7 @@ const Contacts = () => {
                     </div>
                 </div>
             </div>
+            <hr />
         </div>)
 }
 

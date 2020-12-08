@@ -8,18 +8,19 @@ import Index from './containers/index.js'
 function App() {
   return (
     <div>
-      <BrowserRouter><Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="mr-auto">
-          <Link to="/home">Home</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/portfolio">Portfolio</Link>
-        </Nav>
-      </Navbar>
-        <Route path="/home"><Index /></Route>
-        <Route path="/contact"><Contacts /></Route>
-        <Route path="/portfolio"><Portfolio /></Route>
+      <BrowserRouter>
+        <div bg="dark" variant="dark">
+          <div className="mr-auto">
+            <a href="#main">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#portfolio">Portfolio</a>
+          </div>
+        </div>
       </BrowserRouter>
+      <Index />
+      <Contacts />
+      <Portfolio />
+
     </div>
   );
 }

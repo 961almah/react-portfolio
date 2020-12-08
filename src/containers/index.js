@@ -12,6 +12,7 @@ const Index = () => {
                     </div>
                 </div>
             </div>
+            <hr />
         </div>
     )
 }
