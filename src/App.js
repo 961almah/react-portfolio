@@ -12,14 +12,14 @@ function App() {
         <div bg="dark" variant="dark">
           <div className="mr-auto">
             <a href="#main">Home</a>
-            <a href="#contact">Contact</a>
             <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </BrowserRouter>
       <Index />
-      <Contacts />
       <Portfolio />
+      <Contacts />
 
     </div>
   );
